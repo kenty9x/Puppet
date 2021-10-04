@@ -6,7 +6,7 @@ package {'nginx':
 
 file {'/tmp/status.txt':
     content => 'Nginx installed',
-    mode => '0644'
+    mode => '0644',
 }
 
 }
